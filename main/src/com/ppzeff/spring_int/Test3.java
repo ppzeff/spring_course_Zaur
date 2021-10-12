@@ -1,12 +1,12 @@
-package com.ppzeff;
+package com.ppzeff.spring_int;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class Test2 {
+public class Test3 {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
-        Pet pet = context.getBean("myPet", Pet.class);
-        pet.say();
+        Person person = context.getBean("myPerson", Person.class);
+        person.callMyPet();
     }
 }

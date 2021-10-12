@@ -1,4 +1,4 @@
-package com.ppzeff;
+package com.ppzeff.spring_int;
 
 public class Test1 {
     public static void main(String[] args) {

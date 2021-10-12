@@ -1,4 +1,4 @@
-package com.ppzeff;
+package com.ppzeff.spring_int;
 
 public class Cat implements Pet {
     @Override

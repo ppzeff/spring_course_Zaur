@@ -1,4 +1,4 @@
-package com.ppzeff;
+package com.ppzeff.spring_int;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
